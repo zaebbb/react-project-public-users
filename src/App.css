@@ -1,0 +1,15 @@
+a{
+    color: #000;
+    text-decoration: none;
+}
+a:hover{
+    color: #000;
+}
+.imageFigures{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: auto;
+    padding: 20px;
+}
