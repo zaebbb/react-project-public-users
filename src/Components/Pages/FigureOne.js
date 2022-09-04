@@ -19,7 +19,7 @@ const FigureOne = () => {
                 'authorization': localStorage.getItem('authorization')
             }
         })
-        setCheckTokenState(result.data.user[0].name)
+        setCheckTokenState(result?.data?.user[0]?.name)
     }
 
     const [oneFigureState, setOneFigureState] = useState()

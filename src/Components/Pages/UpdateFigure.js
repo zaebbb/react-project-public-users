@@ -35,7 +35,7 @@ const UpdateFigure = () => {
             method: 'GET',
             url: apiFigure
         })
-        setFigureDataState(result.data.figure[0])
+        setFigureDataState(result?.data?.figure[0])
     }
 
     const formSend = async () => {
