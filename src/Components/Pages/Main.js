@@ -20,7 +20,7 @@ const MainPage = () => {
             <h1>Публичные личности</h1>
             <div className="row">
                 {
-                    publicFiguresState && publicFiguresState.data.figures[0].map((el, key) => {
+                    publicFiguresState && publicFiguresState?.data?.figures[0]?.map((el, key) => {
                         return (
                             <a className="card" style={{width: '18rem'}} key={key} href={'/figures/' + el.id}>
                                 <img src={process.env.REACT_APP_API_IMAGE + el.photoProfile} className="card-img-top imageFigures" alt="..." />
