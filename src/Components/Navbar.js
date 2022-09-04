@@ -24,7 +24,7 @@ const Navbar = initialState => {
                 'authorization': localStorage.getItem('authorization')
             }
         })
-        setAdminState(result.data.user[0].name)
+        setAdminState(result?.data?.user[0]?.name)
     }
 
     useEffect(() => {
